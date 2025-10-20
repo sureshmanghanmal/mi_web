@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Título de mi página web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Titular principal de la página</h1>
-      </header>
-      <main>
-         <h2>Primer Subtítulo de la página</h2>
-         <p>Primer párrafo</p>
-      </main>
-      <footer>
-      </footer>
-   </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web Personal</title>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header id="encabezado">
+    <h1>Mi Página Web Personal</h1>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#foto">Foto</a></li>
+        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="caja">
+      <h2>Bienvenido</h2>
+      <p>Hola, soy estudiante de Sistemas Microinformáticos y Redes. Esta es mi primera página web creada con HTML y gestionada con Git y GitHub.</p>
+      <p>En este proyecto aprendo a usar etiquetas básicas, enlaces, imágenes, vídeos y mapas.</p>
+    </section>
+
+    <!-- SECCIÓN FOTO -->
+    <section id="foto" class="caja">
+      <h2>Mi Foto</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Foto de ejemplo" width="300">
+      <p>Esta es una imagen de ejemplo. Puedes reemplazarla por una foto real si lo deseas.</p>
+    </section>
+
+    <!-- SECCIÓN MAPA -->
+    <section id="mapa" class="caja">
+      <h2>Ubicación</h2>
+      <p>Este es un mapa insertado con un iframe de Google Maps:</p>
+      <iframe 
+        src="https://www.google.com/maps/place/Valencia/@39.407669,-0.5263176,54510m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd604f4cf0efb06f:0xb4a351011f7f1d39!8m2!3d39.4738338!4d-0.3756348!16zL20vMGgzdHY?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
+        width="600" height="450" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- SECCIÓN VIDEO -->
+    <section id="video" class="caja">
+      <h2>Video Favorito</h2>
+      <p>Video desde YouTube:</p>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/watch?v=oBXSvS2QKxU" 
+        title="Video de ejemplo" frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="caja">
+      <h2>Contacto</h2>
+      <p>Si quieres ver el código de esta página, puedes visitar mi repositorio en 
+        <a href="https://github.com/usuario/mi_web" target="_blank">GitHub</a>.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>© 2025 Mi Página Web — Creado por Sure</p>
+  </footer>
+
+</body>
 </html>
